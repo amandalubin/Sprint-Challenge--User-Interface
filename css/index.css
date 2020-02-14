@@ -72,7 +72,8 @@ p {
 }
 
 nav{
-	padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 	display: flex;
 	justify-content: space-between; 
     align-items: baseline;
@@ -203,4 +204,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*CSS FOR ABOUT PAGE*/
+
+.bannerAbout{
+    margin-bottom: 3%;
+}
+
+.aboutPanel{
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+}
+
+.pageContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pageContent div{
+    width: 48%;
+    padding: 2%;
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+}
+
+.pageContent div h2{
+    padding-top: 3%;
+}
+
+.LearnMore{
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 100%;
+    padding: 2% 6%;
+}
+
+.LetsWork{
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
