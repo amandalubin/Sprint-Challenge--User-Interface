@@ -33,14 +33,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML provides meaning to your content. Using semantic HTML tags (e.g., header, footer, section, p) can help other developers understand the meaning of the content (what the content is for). Using semantic HTML properly can also help with SEO. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    1) Height and width have no effect on inline elements. On the other hand, you can use height and width to adjust the size of a block elements. 
+    2) Block elements will break the flow of content on a new line, but inline elements can be nested inside of other elements without disrupting the flow of content. 
 
 3. What are the 4 areas of the box model?
+    The four areas of the box model are:
+    1) Content - The content of the box, where text and images appear.
+    2) Padding - Padding clears an area around the content, but within the border. The padding is transparent.
+    3) Border - Borders that go around the padding and content.
+    4) Margin - Margin clears an area outside the border and pushes the element away from other elements. The margin is transparent. 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    The cross-axis.
 
 5. Explain why git is valuable to a team of developers.
+    Git is a distributed version-control system for tracking changes in source code during software development. Git is valuable because it allows you to save multiple versions of your code and track your changes. If you try something new and the code breaks, you can always go back to a previous version. Version control is especially important when multiple developers are working on the same code base, since this enables developers to see changes made by others in an organized way and stay coordinated while working on the same code base.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

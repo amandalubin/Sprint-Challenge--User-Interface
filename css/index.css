@@ -71,12 +71,33 @@ p {
     margin: 0 auto;
 }
 
+nav{
+    padding-top: 5%;
+    padding-bottom: 5%;
+	display: flex;
+	justify-content: space-between; 
+    align-items: baseline;
+}
+
+.links{
+	width: 80%;
+	display: flex;
+	justify-content: space-around; 
+}
+
+a{
+	text-decoration: none;
+    color: black;
+    font-size: 85%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
@@ -101,16 +122,56 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1{
+    background:teal;
+}
+
+.box2{
+    background: gold;
+}
+
+.box3{
+    background: cadetblue;
+}
+
+.box4{
+    background: coral;
+}
+
+.box5{
+    background: crimson;
+}
+
+.box6{
+    background: forestgreen;
+}
+
+.box7{
+    background:darkorchid;
+}
+
+.box8{
+    background: hotpink;
+}
+
+.box9{
+    background:indigo;
+}
+
+.box10{
+    background:dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +204,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*CSS FOR ABOUT PAGE*/
+
+.bannerAbout{
+    margin-bottom: 3%;
+}
+
+.aboutPanel{
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+}
+
+.pageContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pageContent div{
+    width: 48%;
+    padding: 2%;
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+}
+
+.pageContent div h2{
+    padding-top: 3%;
+}
+
+.LearnMore{
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 100%;
+    padding: 2% 6%;
+}
+
+.LetsWork{
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
